@@ -1,6 +1,4 @@
 # Built landing page
-site/
-build/
 
 # Dependencies
 node_modules/
