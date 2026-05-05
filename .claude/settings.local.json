@@ -36,7 +36,14 @@
       "Bash(chmod*)",
       "Bash(wc*)",
       "WebSearch",
-      "WebFetch"
+      "WebFetch",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\juan_\\\\Proyectos\\\\claude-webkit\" -Force | Format-Table Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Dir\"}else{\"File\"}}} -AutoSize)",
+      "PowerShell(Get-ChildItem *)",
+      "Bash(python \"C:\\\\Users\\\\juan_\\\\Proyectos\\\\claude-webkit\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"marketing agency consultancy\" --domain color)",
+      "Bash(Remove-Item -Recurse -Force site)",
+      "Bash(xargs sed -i 's/ease: \\\\[0\\\\.25, 1, 0\\\\.5, 1\\\\]/ease: \"easeOut\"/g')",
+      "Bash(sed -i 's/import { motion } from \"framer-motion\";/import { motion, type Variants } from \"framer-motion\";/' src/app/contacto/page.tsx src/app/nosotros/page.tsx src/app/page.tsx src/app/servicios/page.tsx)",
+      "Bash(sed -i 's/const fadeUp = {/const fadeUp: Variants = {/' src/app/contacto/page.tsx src/app/nosotros/page.tsx src/app/page.tsx src/app/servicios/page.tsx)"
     ]
   }
 }
